@@ -246,7 +246,7 @@ void MicroOLED::begin() {
 	command(NORMALDISPLAY);			// 0xA6
 	command(DISPLAYALLONRESUME);	// 0xA4
 
-	command(SEGREMAP | 0x1);
+	//command(SEGREMAP | 0x1);
 	command(COMSCANDEC);
 
 	command(SETCOMPINS);			// 0xDA
@@ -380,7 +380,7 @@ void MicroOLED::invert(bool inv) {
 
 /** \brief Set contrast.
 
-    OLED contract value from 0 to 255. Note: Contrast level is not very obvious.
+    OLED contrast value from 0 to 255. Note: Contrast level is not very obvious.
 */
 void MicroOLED::contrast(uint8_t contrast) {
 	command(SETCONTRAST);			// 0x81
