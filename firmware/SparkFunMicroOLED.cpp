@@ -233,7 +233,8 @@ void MicroOLED::begin() {
 	command(0x80);					// the suggested ratio 0x80
 
 	command(SETMULTIPLEX);			// 0xA8
-	command(0x2F);
+    command(0x40);
+    //command(0x2F);
 
 	command(SETDISPLAYOFFSET);		// 0xD3
 	command(0x0);					// no offset
