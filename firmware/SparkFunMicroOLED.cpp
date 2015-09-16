@@ -246,7 +246,7 @@ void MicroOLED::begin() {
 	command(NORMALDISPLAY);			// 0xA6
 	command(DISPLAYALLONRESUME);	// 0xA4
 
-	//command(SEGREMAP | 0x1);
+	command(SEGREMAP | 0x1);
 	command(COMSCANDEC);
 
 	command(SETCOMPINS);			// 0xDA
