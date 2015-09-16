@@ -250,7 +250,7 @@ void MicroOLED::begin() {
 	command(COMSCANDEC);
 
 	command(SETCOMPINS);			// 0xDA
-	command(0x01);
+	command(0x12);
 
 	command(SETCONTRAST);			// 0x81
 	command(0x7F);
