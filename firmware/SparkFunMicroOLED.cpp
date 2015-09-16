@@ -318,7 +318,8 @@ void MicroOLED::setPageAddress(uint8_t add) {
     Send column address command and address to the SSD1306 OLED controller.
 */
 void MicroOLED::setColumnAddress(uint8_t add) {
-	command((0x10|(add>>4))+0x02);
+	//command((0x10|(add>>4))+0x02);
+    command((0x10|(add>>4)));
 	command((0x0f&add));
 	return;
 }
