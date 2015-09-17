@@ -1,7 +1,7 @@
 {
-  "name": "SparkFunMicroOLED",
+  "name": "Heltec128x64MicroOLED",
   "author": "Jim Lindblom <jim@sparkfun.com>",
   "license": "GPL v3",
   "version": "1.3.0",
-  "description": "A library to drive the SparkFun Photon Micro OLED shield."
+  "description": "Modified from the SparkFun Photon Micro OLED shield to support the Heltec model."
 }
