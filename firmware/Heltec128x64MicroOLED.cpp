@@ -14,8 +14,8 @@
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-#include "SparkFunMicroOLED.h"
-#include "SparkFunMicroOLEDFonts.h"
+#include "Heltec128x64MicroOLED.h"
+#include "Heltec128x64MicroOLEDFonts.h"
 #include "math.h"
 
 // Change the total fonts included

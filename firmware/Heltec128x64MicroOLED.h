@@ -14,8 +14,8 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-#ifndef SPARKFUN_MICRO_OLED_H
-#define SPARKFUN_MICRO_OLED_H
+#ifndef HELTEC_128_64_MICRO_OLED_H
+#define HELTEC_128_64_MICRO_OLED_H
 
 #include <stdio.h>
 #include <stdint.h>
