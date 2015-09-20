@@ -35,7 +35,7 @@ const unsigned char *MicroOLED::fontsPointer[]={
 	,space03
 };
 
-#define I2C_FREQ 400000L
+#define I2C_FREQ 1000000L
 
 /** \brief MicroOLED screen buffer.
 
@@ -949,8 +949,8 @@ void MicroOLED::spiTransfer(uint8_t data)
 
 void MicroOLED::i2cSetup()
 {
-	Wire.setSpeed(CLOCK_SPEED_400KHZ);
-	Wire.begin();
+    Wire.setSpeed(I2C_FREQ);
+    Wire.begin();
 }
 
 void MicroOLED::i2cWrite(uint8_t address, uint8_t dc, uint8_t data)
